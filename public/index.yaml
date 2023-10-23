@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  nocodb:
+  - apiVersion: v2
+    appVersion: 0.100.2
+    created: "2023-10-23T13:54:24.958699+02:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~11.6.6
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~9.4.6
+    description: A Helm chart for Kubernetes
+    digest: 6995c2505375863a23317104227db4bb68fcd258f236c4bb3fb297b24988f9e1
+    name: nocodb
+    type: application
+    urls:
+    - https://elium.github.io/nocodb/nocodb-0.3.0.tgz
+    version: 0.3.0
+generated: "2023-10-23T13:54:24.949143+02:00"
